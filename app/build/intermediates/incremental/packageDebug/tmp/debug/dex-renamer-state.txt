@@ -1,0 +1,4 @@
+#Fri Dec 11 17:03:42 AFT 2020
+base.0=C\:\\Users\\ASF\\Downloads\\Project\\Project\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#223256"
+    tools:context=".Welcome">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="georgia"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/nameH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#109f2e"
+            android:textStyle="bold"
+            android:fontFamily="georgia"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adress"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="georgia"
+            android:textSize="20dp"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            android:id="@+id/addressH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#109f2e"
+            android:textStyle="bold"
+            android:fontFamily="georgia"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Role"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="georgia"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/roleH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#109f2e"
+            android:textStyle="bold"
+            android:fontFamily="georgia"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Services Booked"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="georgia"
+            android:textSize="20dp"
+            android:paddingLeft="20dp" />
+
+        <ListView
+            android:id="@+id/listViewHome"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="georgia"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"/>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="40dp"
+            app:cardBackgroundColor="#294c53"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingClass">
+
+            <TextView
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:onClick="addService"
+                android:padding="10dp"
+                android:text="Search"
+                android:textColor="#191919"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
